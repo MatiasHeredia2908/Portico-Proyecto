@@ -4,8 +4,19 @@
     padding: 0;
     color: #BF9E60 !important;
     max-width: 100%;
+    font-family: "Moderustic", sans-serif;
 }
-/*Posición y tamaño del logo. */
+p{
+    font-weight: 600 !important;
+}
+h1{
+    font-weight: 800 !important;
+}
+h2, h3{
+    font-weight: 700 !important;
+}
+
+/*Posición y tamaño del header. */
 .navbar{
     background-color: #8c6e49e1;
     z-index: 1000;
@@ -20,6 +31,12 @@
 }
 #carouselExampleFade{
     margin-bottom: 20px;
+}
+.titulo-inicio{
+    letter-spacing: 5px;
+}
+.parrafo-inicio{
+    margin: 0;
 }
 
 @media (min-width:320px) and (max-width:768px){
@@ -519,6 +536,7 @@
         }
     }
 }
+
 @media (min-width:1400px){
     body{
         /*Inicio*/
@@ -601,9 +619,13 @@
         }
         .pino-lemon{
             margin: 20px;
+            text-align: start;
+        }
+        h2.pino-lemon, h2.franuty-pretto{
+            text-align: center;
         }
         .franuty-pretto{
-            text-align: center;
+            text-align: end;
             margin: 20px;
         }
         .franuty-pretto-img{
@@ -653,6 +675,9 @@
         .tarjeta-postres img{
             width: 100%;
             height: 550px;
+        }
+        .tarjeta-postres p{
+            margin: 10px 20px;
         }
         .linea-divisora{
             width: 90%;
@@ -712,24 +737,6 @@
     }
 }
 
-    /* Dropdown */
-    summary{
-        text-align: center;
-        padding: 25px;
-    }
-    details{
-        text-align: center;
-    }
-    details[open] summary{
-        background-color: #8C6E49;
-    }
-
-    details summary::-webkit-details-marker {
-        display: none;
-    }
-    .sabores{
-        text-align: center;
-    }
     li{
         padding: 15px;
     }
@@ -748,7 +755,8 @@
         width: 100%;
         }
             
-    /* Pie de pagina */ 
+    
+        /* Pie de pagina */ 
     footer{
         justify-content: center;
         align-items: center;
