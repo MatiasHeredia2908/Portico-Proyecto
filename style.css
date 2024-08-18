@@ -737,36 +737,34 @@ h2, h3{
     }
 }
 
-    li{
-        padding: 15px;
-    }
-    ul{
-        list-style-type: none;
-    }
+li{
+    padding: 15px;
+}
+ul{
+    list-style-type: none;
+}
 
-    /* Precios */
-    .precios-img{
-        width: 100%;
-        margin-top: 20px;
-    }
+/* Precios */
+.precios-img{
+    width: 100%;
+    margin-top: 20px;
+}
             
-    /* Mapa */
-    iframe{
-        width: 100%;
-        }
-            
-    
-        /* Pie de pagina */ 
-    footer{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-    .iconos{
-        justify-content: center;
-        align-items: center;
-    } 
-
-    .alinear{
+/* Mapa */
+iframe{
+    width: 100%;
+}
+                
+/* Pie de pagina */ 
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.iconos{
+    justify-content: center;
+    align-items: center;
+} 
+.alinear{
         text-align: center !important;
     }
