@@ -1,0 +1,21 @@
+/* Navbar */
+.navbar{
+    background-color: #8c6e49e1;
+    z-index: 1000;
+}
+.logo{
+    @include medidas(50px, 50px)
+}
+.foto-principal{
+    @include medidas(100%, 0);
+    margin-bottom: 20px;
+}
+#carouselExampleFade{
+    margin-bottom: 20px;
+}
+.titulo-inicio{
+    letter-spacing: 5px;
+}
+.parrafo-inicio{
+    margin: 0;
+}

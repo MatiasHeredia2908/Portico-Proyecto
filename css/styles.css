@@ -1,0 +1,753 @@
+@charset "UTF-8";
+/* Colores */
+/* Mixins */
+@media (min-width: 320px) and (max-width: 768px) {
+  /* Inicio */
+  .cajas {
+    border: 1px solid solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cajas .caja {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .contacto {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+  .telefono {
+    display: block;
+  }
+  .formulario {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 20px;
+  }
+  /* Sabores */
+  .sabores-titulo {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .sabores-cajas {
+    border: 2px solid #8c6e49;
+    border-radius: 20px;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  }
+  .sabores-cajas .pino-lemon-img {
+    border-radius: 20px 20px 0 0;
+  }
+  .sabores-cajas .franuty-pretto-img {
+    border-radius: 0px 0px 20px 20px;
+  }
+  .caja-scalo {
+    border: 3px solid #8c6e49;
+    border-radius: 20px;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+  }
+  /* Postres */
+  .postres-img-principal {
+    margin-top: 75px;
+  }
+  .postres-titulo {
+    padding: 0;
+    margin: 20px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .tarjeta-postres {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  }
+  .tarjeta-postres h3 {
+    padding: 0;
+    margin: 15px;
+  }
+  .tarjeta-postres img {
+    width: 100%;
+  }
+  .linea-divisora {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Cafeteria */
+  .cafeteria-img-principal {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tarjeta-cafeteria {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    padding: 0;
+    margin: 10px;
+  }
+  .tarjeta-cafeteria h3 {
+    padding: 0;
+    margin: 10px;
+  }
+  /* Nosotros */
+  .historia-nosotros img {
+    margin-top: 23%;
+  }
+  .historia-nosotros .descripcion-nosotros {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nosotros-articulo {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Inicio */
+  .cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cajas .caja {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 25px;
+  }
+  .contacto {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+  .telefono {
+    display: block;
+  }
+  .formulario {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 20px;
+    display: flex;
+  }
+  /* Sabores */
+  .sabores-titulo {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+  .sabores-cajas {
+    border: 2px solid #8c6e49;
+    border-radius: 20px;
+    padding: unset;
+    margin: 20px;
+    text-align: center;
+  }
+  .sabores-cajas .pino-lemon-img {
+    border-radius: 20px 20px 0 0;
+  }
+  .sabores-cajas .franuty-pretto-img {
+    border-radius: 0px 0px 20px 20px;
+  }
+  .caja-scalo {
+    border: 3px solid #8c6e49;
+    border-radius: 10px;
+    padding: unset;
+    margin: 10px;
+    text-align: center;
+  }
+  /* Postres */
+  .postres-caja-principal img {
+    margin-top: 75px;
+  }
+  .postres-caja-principal .postres-titulo {
+    padding: unset;
+    margin: 20px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .tarjeta-postres {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    padding: unset;
+    margin: 20px;
+    text-align: center;
+  }
+  .tarjeta-postres h3 {
+    margin: 15px;
+  }
+  .tarjeta-postres img {
+    width: 100%;
+  }
+  .linea-divisora {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Cafeteria */
+  .tarjeta-cafeteria {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .tarjeta-cafeteria h3 {
+    margin: 10px;
+  }
+  /* Nosotros */
+  .historia-nosotros .descripcion-nosotros {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nosotros-articulo {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*Inicio*/
+  .cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cajas .caja {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .contacto {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+  .contacto .telefono {
+    display: block;
+  }
+  .contacto .consultas-formulario .formulario {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 20px;
+    display: flex;
+  }
+  /* Sabores */
+  .sabores-titulo {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .sabores-cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: unset;
+    margin: 20px;
+    display: flex;
+  }
+  .sabores-cajas .main-cajas-contenido .pino-lemon-img {
+    border-radius: 20px 0 0 20px;
+  }
+  .sabores-cajas .main-cajas-contenido .franuty-pretto-img {
+    border-radius: 0 20px 20px 0;
+  }
+  .sabores-cajas .main-cajas-contenido h2 {
+    text-align: center;
+    margin: 20px;
+  }
+  .sabores-cajas .main-cajas-contenido p {
+    margin: 20px;
+  }
+  .sabores-cajas .main-cajas-contenido .franuty-pretto {
+    text-align: end;
+  }
+  .caja-scalo {
+    border: 3px solid #8c6e49;
+    border-radius: 20px;
+    padding: unset;
+    margin: 20px;
+    text-align: center;
+  }
+  .caja-scalo h2 {
+    margin: 20px;
+  }
+  .caja-scalo img {
+    width: 100%;
+  }
+  .caja-scalo p {
+    margin: 20px;
+  }
+  /* Postres */
+  .postres-titulo {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+  }
+  .grid-postres {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .grid-postres .tarjeta-postres {
+    border: 1px solid #8c6e49;
+    border-radius: 155px;
+    margin: 20px;
+    text-align: center;
+  }
+  .grid-postres .tarjeta-postres h3 {
+    margin: 15px;
+  }
+  .grid-postres .tarjeta-postres img {
+    width: 100%;
+    height: 420px;
+  }
+  .grid-postres .tarjeta-brownie {
+    grid-column: 1/span 2;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .linea-divisora {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+  }
+  /* Cafeteria*/
+  .cafeteria-img-principal {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tarjeta-cafeteria {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .tarjeta-cafeteria h3 {
+    margin: 10px;
+  }
+  /* Nosotros */
+  .historia-nosotros .descripcion-nosotros {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nosotros-articulo {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /*Inicio*/
+  .cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cajas .caja {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .contacto {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+  }
+  .contacto .info .telefono {
+    display: block;
+  }
+  .contacto .consultas-formulario .formulario {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 20px;
+    display: flex;
+  }
+  /* Sabores */
+  .sabores-titulo {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+  .sabores-cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+  }
+  .sabores-cajas .pino-lemon-img {
+    border-radius: 20px 0 0 20px;
+  }
+  .sabores-cajas .franuty-pretto-img {
+    border-radius: 0 20px 20px 0;
+  }
+  .sabores-cajas h2 {
+    text-align: center;
+    margin: 20px;
+  }
+  .sabores-cajas p {
+    margin: 20px;
+  }
+  .sabores-cajas .franuty-pretto {
+    text-align: end;
+  }
+  .caja-scalo {
+    border: 3px solid #8c6e49;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .caja-scalo h2, .caja-scalo p {
+    margin: 20px;
+  }
+  .caja-scalo img {
+    width: 100%;
+  }
+  /* Postres */
+  .postres-titulo {
+    text-align: center;
+    text-decoration: underline;
+    margin: 40px;
+  }
+  .grid-postres {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+  }
+  .grid-postres .tarjeta-postres {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+  }
+  .grid-postres .tarjeta-postres h3 {
+    margin: 15px;
+  }
+  .grid-postres .tarjeta-postres img {
+    width: 100%;
+    height: 500px;
+  }
+  .grid-postres .tarjeta-brownie {
+    grid-column: 1/span 2;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .linea-divisora {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  /* Cafeteria */
+  .cafeteria-img-principal {
+    width: 100%;
+    margin: 10px;
+  }
+  .tarjeta-cafeteria {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .tarjeta-cafeteria h3 {
+    margin: 10px;
+  }
+  /* Nosotros */
+  .historia-nosotros .descripcion-nosotros {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nosotros-articulo {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  /*Inicio*/
+  .cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .cajas .caja {
+    border: 1px solid #8c6e49;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .contacto {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 4rem 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contacto .info {
+    width: 50%;
+    text-align: center;
+  }
+  .contacto .info .telefono {
+    display: block;
+  }
+  .contacto .consultas-formulario {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    position: relative;
+    width: 50%;
+    padding: 40px;
+  }
+  .contacto .consultas-formulario textarea {
+    padding: 10px;
+    border: 1px solid #8c6e49;
+    align-items: flex-end;
+  }
+  .contacto .consultas-formulario .consulta-envianos-consulta {
+    width: 50%;
+    display: flex;
+    position: absolute;
+  }
+  .contacto .consultas-formulario .consulta-envianos-consulta .formulario {
+    width: 100%;
+    display: inline-flex;
+  }
+  .contacto .consultas-formulario .consulta-envianos-consulta .formulario input {
+    justify-self: center;
+  }
+  /* Sabores */
+  .sabores-titulo {
+    margin-top: 30px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .sabores-cajas {
+    border: 1px solid #8c6e49;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+  }
+  .sabores-cajas .pino-lemon-img {
+    border-radius: 20px 0 0 20px;
+  }
+  .sabores-cajas .franuty-pretto-img {
+    border-radius: 0 20px 20px 0;
+  }
+  .sabores-cajas h2 {
+    margin: 20px;
+    text-align: center;
+  }
+  .sabores-cajas p {
+    margin: 20px;
+  }
+  .sabores-cajas .franuty-pretto {
+    text-align: end;
+  }
+  .caja-scalo {
+    border: 3px solid #8c6e49;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .caja-scalo img {
+    width: 100%;
+  }
+  .caja-scalo h2, .caja-scalo p {
+    margin: 20px;
+  }
+  /* Postres */
+  .postres-caja-principal {
+    width: 50%;
+    display: flex;
+  }
+  .postres-caja-principal img {
+    border-radius: 5px;
+  }
+  .postres-caja-principal h1 {
+    text-align: center;
+    text-decoration: underline;
+    display: inline;
+    margin-left: 45%;
+    margin-top: 25%;
+  }
+  .grid-postres {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .grid-postres .tarjeta-postres {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+  }
+  .grid-postres .tarjeta-postres h3 {
+    margin: 15px;
+  }
+  .grid-postres .tarjeta-postres img {
+    width: 100%;
+    height: 550px;
+  }
+  .grid-postres .tarjeta-postres p {
+    margin: 10px 20px;
+  }
+  .grid-postres .tarjeta-brownie {
+    grid-column: 3;
+  }
+  .grid-postres .linea-divisora {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .grid-alm-bom {
+    display: grid;
+    grid-template-columns: repeat(2, auto) !important;
+  }
+  /* Cafeteria */
+  .cafeteria-img-principal {
+    width: 100%;
+  }
+  .cafeteria-contenido {
+    margin-top: 30px;
+  }
+  .cafeteria-contenido .row .col {
+    border: 1px solid #8c6e49;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .cafeteria-contenido .row .col h3 {
+    margin: 10px;
+  }
+  /* Nosotros */
+  .historia-nosotros {
+    display: flex;
+  }
+  .historia-nosotros img {
+    width: 60%;
+  }
+  .historia-nosotros .descripcion-nosotros {
+    width: 40%;
+    text-align: center;
+    align-content: center;
+  }
+  .historia-nosotros .descripcion-nosotros h1 {
+    margin-bottom: 3rem;
+  }
+  .historia-nosotros .descripcion-nosotros strong {
+    margin: 0 50px;
+  }
+  .linea-nosotros {
+    display: none;
+  }
+  .nosotros-articulo {
+    text-align: center;
+  }
+  .nosotros-articulo h2 {
+    margin: 50px 0 15px;
+  }
+}
+/* Navbar */
+.navbar {
+  background-color: rgba(140, 110, 73, 0.8823529412);
+  z-index: 1000;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.foto-principal {
+  width: 100%;
+  height: 0;
+  margin-bottom: 20px;
+}
+
+#carouselExampleFade {
+  margin-bottom: 20px;
+}
+
+.titulo-inicio {
+  letter-spacing: 5px;
+}
+
+.parrafo-inicio {
+  margin: 0;
+}
+
+/* Pie de Pagina */
+footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.iconos {
+  justify-content: center;
+  align-items: center;
+}
+
+.alinear {
+  text-align: center !important;
+}
+
+/* Tipografía, propiedades y estilos */
+* {
+  margin: 0;
+  padding: 0;
+  color: #BF9E60 !important;
+  max-width: 100%;
+  font-family: "Moderustic", sans-serif;
+}
+
+p {
+  font-weight: 600 !important;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+h2, h3 {
+  font-weight: 700 !important;
+}
+
+/* Index */
+ul {
+  list-style-type: none;
+}
+ul li {
+  padding: 15px;
+}
+
+.precios-img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

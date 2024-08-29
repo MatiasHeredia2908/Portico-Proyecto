@@ -1,0 +1,13 @@
+/* Mixins */
+@mixin medidas ($width, $height){
+    width: $width;
+    height: $height;
+}
+@mixin bordes ($border, $border-radious){
+    border: $border;
+    border-radius: $border-radious;
+}
+@mixin box-model($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}

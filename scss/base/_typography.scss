@@ -1,0 +1,33 @@
+/* Tipografía, propiedades y estilos */
+*{
+    margin: 0;
+    padding: 0;
+    color: #BF9E60 !important;
+    max-width: 100%;
+    font-family: "Moderustic", sans-serif;
+}
+p{
+    font-weight: 600 !important;
+}
+h1{
+    font-weight: 800 !important;
+}
+h2, h3{
+    font-weight: 700 !important;
+}
+
+    /* Index */
+ul{
+    list-style-type: none;
+        li{
+            padding: 15px;
+        }
+}
+.precios-img{
+    width: 100%;
+    margin-top: 20px;
+}
+iframe{
+    width: 100%;
+}
+

@@ -1,0 +1,96 @@
+@media (min-width:768px) and (max-width:992px){
+    /* Inicio */
+.cajas{
+    @include bordes(1px solid $color-primario, 25px);
+    @include box-model(20px, 20px);
+    text-align: center;
+        .caja{
+            @include bordes(1px solid $color-primario, 25px);
+            @include box-model(20px, 25px);
+        }
+}
+.contacto{
+    @include bordes(1px solid $color-primario, 20px);
+    @include box-model(40px, 10px);
+    text-align: center;
+}
+.telefono{
+    display: block;
+}
+.formulario{
+    @include bordes(1px solid $color-primario, 20px);
+    @include box-model(30px 40px, 20px);
+    display: flex;
+}
+
+    /* Sabores */
+.sabores-titulo{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+.sabores-cajas{
+    @include bordes(2px solid $color-primario, 20px);
+    @include box-model(unset, 20px);
+    text-align: center;
+        .pino-lemon-img{
+            border-radius: 20px 20px 0 0;
+        }
+        .franuty-pretto-img{
+            border-radius: 0px 0px 20px 20px;
+        }
+
+}
+.caja-scalo{
+    @include bordes(3px solid $color-primario, 10px);
+    @include box-model(unset, 10px);
+    text-align: center;
+}
+
+    /* Postres */
+.postres-caja-principal{
+    img{
+        margin-top: 75px;
+    }
+    .postres-titulo{
+        @include box-model(unset, 20px);
+        text-decoration: underline;
+        text-align: center;
+    }
+}
+.tarjeta-postres{
+    @include bordes(1px solid $color-primario, 15px);
+    @include box-model(unset, 20px);
+    text-align: center;
+        h3{
+            margin: 15px;
+        }
+        img{
+            width: 100%;
+        }
+}
+.linea-divisora{
+    width: 90%;
+    margin: 0 auto;
+}
+
+    /* Cafeteria */
+.tarjeta-cafeteria{
+    @include bordes(1px solid $color-primario, 15px);
+    margin: 10px;
+        h3{
+            margin: 10px;
+        }
+}
+    /* Nosotros */
+.historia-nosotros{
+    .descripcion-nosotros{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.nosotros-articulo{
+    margin-top: 20px;
+    text-align: center;
+}
+}
