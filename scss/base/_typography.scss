@@ -1,19 +1,35 @@
 /* Tipografía, propiedades y estilos */
+@import "../variables";
 *{
     margin: 0;
     padding: 0;
-    color: #BF9E60 !important;
+    color: $color-primario;
     max-width: 100%;
     font-family: "Moderustic", sans-serif;
 }
 p{
-    font-weight: 600 !important;
+    font-family: 'Moderustic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/moderustic/v1/2-ci9J9s3o6eLFNHFdXYQuTdoKFD.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 h1{
-    font-weight: 800 !important;
+    font-family: 'Moderustic';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/moderustic/v1/2-ci9J9s3o6eLFNHFdXYQuTdoKFD.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 h2, h3{
-    font-weight: 700 !important;
+    font-family: 'Moderustic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/moderustic/v1/2-ci9J9s3o6eLFNHFdXYQuTdoKFD.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
     /* Index */
@@ -27,7 +43,29 @@ ul{
     width: 100%;
     margin-top: 20px;
 }
+.cajas{
+    .caja{
+        .pedidos-grandes{
+            font-size: 1.6rem;
+        }
+        .numero{
+            font-size: 2rem;
+        }
+    }
+    .caja-horarios{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+}
 iframe{
     width: 100%;
+}
+.contacto{
+    .info{
+        a{
+            color: $color-primario;
+        }
+    }
 }
 

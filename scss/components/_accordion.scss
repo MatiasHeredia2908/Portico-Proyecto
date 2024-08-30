@@ -1,0 +1,17 @@
+/* Estilos de Acordion */
+.estilo-acordion{
+    color: #BF9E60 !important;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.acordion-posicionamiento{
+    @include bordes(1px $color-primario solid, 20px);
+    width: 90%;
+    margin: 0 auto;
+}
+#accordionExample{
+    border: unset;
+}
