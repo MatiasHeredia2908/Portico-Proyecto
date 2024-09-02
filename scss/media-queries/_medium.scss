@@ -24,11 +24,6 @@
 }
 
     /* Sabores */
-.sabores-titulo{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
-}
 .sabores-cajas{
     @include bordes(2px solid $color-primario, 20px);
     @include box-model(unset, 20px);
@@ -46,42 +41,10 @@
     @include box-model(unset, 10px);
     text-align: center;
 }
-
     /* Postres */
-.postres-caja-principal{
-    img{
-        margin-top: 75px;
-    }
-    .postres-titulo{
-        @include box-model(unset, 20px);
-        text-decoration: underline;
-        text-align: center;
-    }
-}
-.tarjeta-postres{
-    @include bordes(1px solid $color-primario, 15px);
-    @include box-model(unset, 20px);
-    text-align: center;
-        h3{
-            margin: 15px;
-        }
-        img{
-            width: 100%;
-        }
-}
-.linea-divisora{
-    width: 90%;
-    margin: 0 auto;
-}
 
     /* Cafeteria */
-.tarjeta-cafeteria{
-    @include bordes(1px solid $color-primario, 15px);
-    margin: 10px;
-        h3{
-            margin: 10px;
-        }
-}
+
     /* Nosotros */
 .historia-nosotros{
     .descripcion-nosotros{

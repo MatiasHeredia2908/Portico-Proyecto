@@ -11,8 +11,6 @@
     text-align: center;
   }
   .cajas .caja {
-    border: 1px solid #BF9E60;
-    border-radius: 25px;
     padding: 20px;
     margin: 20px;
   }
@@ -33,11 +31,6 @@
     margin: 20px;
   }
   /* Sabores */
-  .sabores-titulo {
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-  }
   .sabores-cajas {
     border: 2px solid #BF9E60;
     border-radius: 20px;
@@ -59,47 +52,10 @@
     text-align: center;
   }
   /* Postres */
-  .postres-img-principal {
-    margin-top: 75px;
-  }
-  .postres-titulo {
-    padding: 0;
-    margin: 20px;
-    text-decoration: underline;
-    text-align: center;
-  }
-  .tarjeta-postres {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    padding: 0;
-    margin: 20px;
-    text-align: center;
-  }
-  .tarjeta-postres h3 {
-    padding: 0;
-    margin: 15px;
-  }
-  .tarjeta-postres img {
-    width: 100%;
-  }
-  .linea-divisora {
-    width: 90%;
-    margin: 0 auto;
-  }
   /* Cafeteria */
   .cafeteria-img-principal {
     width: 100%;
     margin-bottom: 10px;
-  }
-  .tarjeta-cafeteria {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    padding: 0;
-    margin: 10px;
-  }
-  .tarjeta-cafeteria h3 {
-    padding: 0;
-    margin: 10px;
   }
   /* Nosotros */
   .historia-nosotros img {
@@ -147,11 +103,6 @@
     display: flex;
   }
   /* Sabores */
-  .sabores-titulo {
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
-  }
   .sabores-cajas {
     border: 2px solid #BF9E60;
     border-radius: 20px;
@@ -173,41 +124,7 @@
     text-align: center;
   }
   /* Postres */
-  .postres-caja-principal img {
-    margin-top: 75px;
-  }
-  .postres-caja-principal .postres-titulo {
-    padding: unset;
-    margin: 20px;
-    text-decoration: underline;
-    text-align: center;
-  }
-  .tarjeta-postres {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    padding: unset;
-    margin: 20px;
-    text-align: center;
-  }
-  .tarjeta-postres h3 {
-    margin: 15px;
-  }
-  .tarjeta-postres img {
-    width: 100%;
-  }
-  .linea-divisora {
-    width: 90%;
-    margin: 0 auto;
-  }
   /* Cafeteria */
-  .tarjeta-cafeteria {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    margin: 10px;
-  }
-  .tarjeta-cafeteria h3 {
-    margin: 10px;
-  }
   /* Nosotros */
   .historia-nosotros .descripcion-nosotros {
     text-align: center;
@@ -228,8 +145,6 @@
     text-align: center;
   }
   .cajas .caja {
-    border: 1px solid #BF9E60;
-    border-radius: 25px;
     padding: 20px;
     margin: 20px;
   }
@@ -251,11 +166,6 @@
     display: flex;
   }
   /* Sabores */
-  .sabores-titulo {
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-  }
   .sabores-cajas {
     border: 1px solid #BF9E60;
     border-radius: 20px;
@@ -296,23 +206,10 @@
     margin: 20px;
   }
   /* Postres */
-  .postres-titulo {
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px;
-  }
   .grid-postres {
     display: grid;
     grid-template-columns: repeat(2, auto);
-  }
-  .grid-postres .tarjeta-postres {
-    border: 1px solid #BF9E60;
-    border-radius: 155px;
-    margin: 20px;
-    text-align: center;
-  }
-  .grid-postres .tarjeta-postres h3 {
-    margin: 15px;
+    gap: 10px;
   }
   .grid-postres .tarjeta-postres img {
     width: 100%;
@@ -323,23 +220,10 @@
     width: 50%;
     margin: 0 auto;
   }
-  .linea-divisora {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px !important;
-  }
   /* Cafeteria*/
   .cafeteria-img-principal {
     width: 100%;
     margin-bottom: 10px;
-  }
-  .tarjeta-cafeteria {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    margin: 10px;
-  }
-  .tarjeta-cafeteria h3 {
-    margin: 10px;
   }
   /* Nosotros */
   .historia-nosotros .descripcion-nosotros {
@@ -361,8 +245,6 @@
     text-align: center;
   }
   .cajas .caja {
-    border: 1px solid #BF9E60;
-    border-radius: 25px;
     padding: 20px;
     margin: 20px;
   }
@@ -384,11 +266,6 @@
     display: flex;
   }
   /* Sabores */
-  .sabores-titulo {
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
-  }
   .sabores-cajas {
     border: 1px solid #BF9E60;
     border-radius: 20px;
@@ -424,11 +301,6 @@
     width: 100%;
   }
   /* Postres */
-  .postres-titulo {
-    text-align: center;
-    text-decoration: underline;
-    margin: 40px;
-  }
   .grid-postres {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -452,23 +324,9 @@
     width: 50%;
     margin: 0 auto;
   }
-  .linea-divisora {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
   /* Cafeteria */
   .cafeteria-img-principal {
     width: 100%;
-    margin: 10px;
-  }
-  .tarjeta-cafeteria {
-    border: 1px solid #BF9E60;
-    border-radius: 15px;
-    margin: 10px;
-  }
-  .tarjeta-cafeteria h3 {
     margin: 10px;
   }
   /* Nosotros */
@@ -491,8 +349,6 @@
     text-align: center;
   }
   .cajas .caja {
-    border: 1px solid #BF9E60;
-    border-radius: 25px;
     padding: 20px;
     margin: 20px;
   }
@@ -537,11 +393,6 @@
     justify-self: center;
   }
   /* Sabores */
-  .sabores-titulo {
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-  }
   .sabores-cajas {
     border: 1px solid #BF9E60;
     border-radius: 20px;
@@ -585,11 +436,9 @@
     border-radius: 5px;
   }
   .postres-caja-principal h1 {
-    text-align: center;
-    text-decoration: underline;
     display: inline;
-    margin-left: 45%;
-    margin-top: 25%;
+    margin-left: 45% !important;
+    margin-top: 25% !important;
   }
   .grid-postres {
     display: grid;
@@ -615,10 +464,6 @@
   }
   .grid-postres .tarjeta-brownie {
     grid-column: 3;
-  }
-  .grid-postres .linea-divisora {
-    width: 90%;
-    margin: 0 auto;
   }
   .grid-alm-bom {
     display: grid;
@@ -670,7 +515,6 @@
 /* Navbar */
 .navbar {
   background-color: rgba(140, 110, 73, 0.8235294118);
-  z-index: 1000;
 }
 
 .logo {
@@ -705,7 +549,7 @@
   color: #BF9E60 !important;
 }
 
-/* Contenido y estilos de main */
+/* Contenido y estilos generales de main */
 /* Main de Index */
 /* Estilos de Acordion */
 .estilo-acordion {
@@ -726,6 +570,65 @@
 
 #accordionExample {
   border: unset;
+}
+
+.cajas hr {
+  width: 90%;
+  margin: 0 auto;
+  border: 1.5px solid;
+}
+
+/* Main de Sabores */
+.sabores-titulo {
+  margin-top: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* Main de Postres */
+.postres-caja-principal img {
+  margin-top: 75px;
+}
+.postres-caja-principal .postres-titulo {
+  padding: unset;
+  margin: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.linea-divisora-postres {
+  color: #BF9E60;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+
+.tarjeta-postres {
+  border: 1px solid #BF9E60;
+  border-radius: 15px;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.tarjeta-postres h3 {
+  padding: 0;
+  margin: 15px;
+}
+.tarjeta-postres img {
+  width: 100%;
+}
+
+/* Cafetería */
+.tarjeta-cafeteria {
+  border: 1px solid #BF9E60;
+  border-radius: 15px;
+  padding: 0;
+  margin: 10px;
+}
+.tarjeta-cafeteria h3 {
+  padding: 0;
+  margin: 10px;
 }
 
 /* Pie de Pagina */

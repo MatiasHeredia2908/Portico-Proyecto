@@ -5,7 +5,6 @@
     @include box-model(20px, 20px);
     text-align: center;
         .caja{
-            @include bordes(1px solid $color-primario, 25px);
             @include box-model(20px, 20px);
         }
 }
@@ -23,11 +22,6 @@
 }
 
     /* Sabores */
-.sabores-titulo{
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-}
 .sabores-cajas{
     @include bordes(2px solid $color-primario, 20px);
     @include box-model(0, 20px);
@@ -44,43 +38,12 @@
     @include box-model(0, 10px);
     text-align: center;
 }
-
     /* Postres */
-.postres-img-principal{
-    margin-top: 75px;
-}
-.postres-titulo{
-    @include box-model(0, 20px);
-    text-decoration: underline;
-    text-align: center;
-}
-.tarjeta-postres{
-    @include bordes(1px solid $color-primario, 15px);
-    @include box-model(0, 20px);
-    text-align: center;
-        h3{
-            @include box-model(0, 15px)
-        }
-        img{
-            width: 100%;
-        }
-}
-.linea-divisora{
-    width: 90%;
-    margin: 0 auto;
-}
 
     /* Cafeteria */
 .cafeteria-img-principal{
     width: 100%;
     margin-bottom: 10px
-}
-.tarjeta-cafeteria{
-    @include bordes(1px solid $color-primario, 15px);
-    @include box-model (0, 10px);
-        h3{
-            @include box-model (0, 10px);
-        }
 }
 
      /* Nosotros */

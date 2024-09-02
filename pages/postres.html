@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Postres | Pórtico VDP</title>
     <link rel="icon" href="../img/icono-transparente .png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
         <!-- Logo -->
-            <nav class="navbar navbar-expand-lg position-fixed w-100">
+            <nav class="navbar navbar-expand-lg position-fixed w-100 z-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../index.html"><img src="../img/logo-cucurucho.png" alt="Logo de Cucurucho de Portico" class="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +36,8 @@
 
             <!-- Foto principal -->
                 <div class="postres-caja-principal">
-                        <img src="../img/postres/principal.jpeg" alt="Torta helada y bombones suecos" class="postres-img-principal">
-                        <h1 class="postres-titulo">POSTRES</h1>
+                        <img src="../img/postres/principal.jpeg" alt="Torta helada y bombones suecos" class="postres-img-principal" data-aos="fade-right">
+                        <h1 class="postres-titulo" data-aos="fade-left">POSTRES</h1>
                 </div>
     </header>
             
@@ -43,44 +45,44 @@
     
      <!-- Tortas, bomobones y almendrado -->
      <main class="grid-postres">
-        <div class="tarjeta-postres">
-            <h3>Tres Chocolates</h3>
+        <div class="tarjeta-postres"  data-aos="zoom-in">
+            <h3>TRES CHOCOLATES</h3>
             <img src="../img/postres/3chocolates.jpg" alt="Torta de tres chocolates | Mousse de chocolate, chocolate blanco y chocolate amargo.">
             <p>Compuesta por una suave mousse de chocolate, capa de chocolate blanco y un toque de chocolate amargo. Combinación perfecta para los amantes del chocolate en todas sus formas.</p>
         </div>
-        <div class="tarjeta-postres">
-            <h3>Oreo</h3>
+        <div class="tarjeta-postres"  data-aos="zoom-in">
+            <h3>OREO</h3>
             <img src="../img/postres/oreo.jpg" alt="Torta oreo | Torta de oreo con pedazos de galletas oreo.">
             <p>Hecha con helado oreo, con pedacitos crujientes de la misma galleta y decorada con un generoso toque de dulce de leche. Ideal para los fanáticos de las combinaciones irresistibles.</p>
         </div>
-        <div class="tarjeta-postres">
-            <h3>Sambayon Chocolate</h3>
+        <div class="tarjeta-postres"  data-aos="zoom-in">
+            <h3>SAMBAYON CHOCOLATE</h3>
             <img src="../img/postres/sambayonchocolate.jpg" alt="Torta de Sambayon Chocolate">
             <p>Disfrutá de una capa de intenso chocolate amargo, combinada con una suave capa de sambayon, todo decorado con crujientes frutos secos. Perfecto para los amantes del chocolate y detalles gourmet.</p>
         </div>
-        <div class="tarjeta-postres tarjeta-rojos">
-            <h3>Frutos Rojos</h3>
+        <div class="tarjeta-postres tarjeta-rojos"  data-aos="zoom-in">
+            <h3>FRUTOS ROJOS</h3>
             <img src="../img/postres/frutosrojos2.jpg" alt="Torta de Frutos Rojos">
             <p>Una delicia hecha con helado cremoso de frutos rojos, acompañado de una suave mousse de chocolate y decorada con frescos frutos rojos.</p>
         </div>
-        <div class="tarjeta-postres tarjeta-brownie">
-            <h3>Brownie</h3>
+        <div class="tarjeta-postres tarjeta-brownie"  data-aos="zoom-in-down">
+            <h3>BROWNIE</h3>
             <img src="../img/postres/brownie.jpg" alt="Torta brownie.">
             <p>Rica mousse de chocolate y dulce de leche brownie, acompañada con trozos del mismo y decorada con merengue. Hecha especialmente para los amantes de los postres intensos y delciosos.</p>
         </div>
 
     </main>
         
-        <hr class="linea-divisora">
+        <hr class="linea-divisora-postres">
 
     <main class="grid-postres grid-alm-bom">
-        <div class="tarjeta-postres">
-            <h3>Almendrado</h3>
+        <div class="tarjeta-postres"  data-aos="fade-down">
+            <h3>ALMENDRADO</h3>
             <img src="../img/postres/almendrado.jpg" alt="Almendrado">
             <p>Un helado cremoso de vainilla cubierto con una crujiente capa de almendras caramelizadas. Postre tradicional, con su combinacion perfecta de texturas y sabores, es ideal para cual ocasion.</p>
         </div>
-        <div class="tarjeta-postres">
-            <h3>Bombón Escoces</h3>
+        <div class="tarjeta-postres"  data-aos="fade-down">
+            <h3>BOMBÓN ESCOCES</h3>
             <img src="../img/postres/bombones.jpg" alt="Bombones suecos.">
             <p>Deliciosos bombones de helado de crema americana con un corazon de dulce de leche, bañados con una capa de chocolate. Pequeños placeres perfectos para darte un gusto en cualquier momento.</p>
         </div>
@@ -100,6 +102,9 @@
                 </svg>
             </a>
         </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+         </script>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

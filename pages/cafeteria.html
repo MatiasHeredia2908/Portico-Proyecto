@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafetería | Pórtico VDP</title>
     <link rel="shortcut icon" href="./img/icono-transparente .png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <header>
         <!-- Logo -->
-            <nav class="navbar navbar-expand-lg position-fixed w-100">
+            <nav class="navbar navbar-expand-lg position-fixed w-100 z-3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="../index.html"><img src="../img/logo-cucurucho.png" alt="Logo de Cucurucho de Portico" class="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,36 +36,36 @@
             </nav>
 
         <!-- Foto principal  -->
-        <img src="../img/cafeteria/principal-cafeteria.jpg" class="cafeteria-img-principal">
+             <img src="../img/cafeteria/principal-cafeteria.jpg" class="cafeteria-img-principal">
     </header>
 
 
         <main class="container text-center cafeteria-contenido">
                 <div class="row">
-                  <div class="col tarjeta-cafeteria">
-                    <h3>Cafe con Leche + Tostadas</h3>
+                  <div class="col tarjeta-cafeteria" data-aos="zoom-out">
+                    <h3>CAFE CON LCHE + TOSTADAS</h3>
                     <img src="../img/cafeteria/tostadas.jpg"alt="Cafe con leche mas dos tostadas y untables">
                     <p>Delicioso cafe con leche, acompañado de tostadas crujientes y dos untables a eleccion.</p>
                   </div>
-                  <div class="col tarjeta-cafeteria">
-                    <h3>Cafe con Leche + Medialunas</h3>
+                  <div class="col tarjeta-cafeteria" data-aos="zoom-out">
+                    <h3>CAFE CON LECHE + MEDIALUNAS</h3>
                 <img src="../img/cafeteria/cafe-medialunas.jpg" alt="Cafe con leche y medialunas">
                 <p>Un cafe con leche bien caliente y dos medialunas frescas para empezar el día con mucha energía.</p>
                   </div>
-                  <div class="col tarjeta-cafeteria">
-                    <h3>Cafe con Leche + Avocado</h3>
+                  <div class="col tarjeta-cafeteria" data-aos="zoom-out">
+                    <h3>CAFE CON LECHE + AVOCADO</h3>
                 <img src="../img/cafeteria/avocado.jpg" alt="Cafe con leche mas una tostada de avocado. ">
                 <p>Un desayuno nutritivo compuesto de cafe con leche acompañado de una tostada de avocado, tomate y huev.</p>
                   </div>
                 </div>
                 <div class="row">
-                    <div class="col tarjeta-cafeteria">
-                        <h3>2 Milkshake</h3>
+                    <div class="col tarjeta-cafeteria" data-aos="zoom-out">
+                        <h3>2 MILKSHAKE</h3>
                 <img src="../img/cafeteria/milkshake.jpeg" alt="Milkshake">
                 <p>No te pierdas esta promo de 2 milkshakes con tu sabor a eleccion y disfruta de una experiencia refrescante y deliciosa con alguien.</p>
                     </div>
-                    <div class="col tarjeta-cafeteria">
-                        <h3>Cafe para llevar</h3>
+                    <div class="col tarjeta-cafeteria" data-aos="zoom-out">
+                        <h3>CAFE PARA LLEVAR</h3>
                 <img src="../img/cafeteria/cafe-llevar.jpeg" alt="Dos cafes para llevar">
                 <p>Llevate la energia de un cafe para llevar de nuestra cafeteria, disfruta de tu cafe preferido mientras seguis con tu dia. Perfecto para aquellos que estan en constante movimientos y no quieren renunciar a un buen cafe.</p>
                     </div>
@@ -84,6 +86,9 @@
             </svg>
         </a>
     </footer>
+    <script>
+        AOS.init();
+     </script>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

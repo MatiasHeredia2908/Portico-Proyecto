@@ -1,18 +1,17 @@
 @media (min-width:992px) and (max-width:1200px){
     /*Inicio*/
-.cajas{
-    @include bordes(1px solid $color-primario, 25px);
-    @include box-model(20px, 20px);
-    text-align: center;
+    .cajas{
+        @include bordes(1px solid $color-primario, 25px);
+        @include box-model(20px, 20px);
+        text-align: center;
         .caja{
-            @include bordes(1px solid $color-primario, 25px);
             @include box-model(20px, 20px);
         }
-}
-.contacto{
-    @include bordes(1px solid $color-primario, 20px);
-    @include box-model(40px, 10px);
-    text-align: center;
+    }
+    .contacto{
+        @include bordes(1px solid $color-primario, 20px);
+        @include box-model(40px, 10px);
+        text-align: center;
         .telefono{
             display: block;
         }
@@ -23,18 +22,13 @@
                 display: flex;  
             }
         }
-}
-
-   /* Sabores */
-.sabores-titulo{
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-}
-.sabores-cajas{
-    @include bordes(1px solid $color-primario, 20px);
-    @include box-model(unset, 20px);
-    display: flex;
+    }
+    
+    /* Sabores */
+    .sabores-cajas{
+        @include bordes(1px solid $color-primario, 20px);
+        @include box-model(unset, 20px);
+        display: flex;
         .main-cajas-contenido{
             .pino-lemon-img{
                 border-radius: 20px 0 0 20px;
@@ -53,11 +47,11 @@
                 text-align: end;
             }
         }
-}
-.caja-scalo{
-    @include bordes(3px solid $color-primario, 20px);
-    @include box-model(unset, 20px);
-    text-align: center;
+    }
+    .caja-scalo{
+        @include bordes(3px solid $color-primario, 20px);
+        @include box-model(unset, 20px);
+        text-align: center;
         h2{
             margin: 20px;
         }
@@ -67,27 +61,17 @@
         p{
             margin: 20px;
         }
-}
-
+    }
+    
     /* Postres */
-.postres-titulo{
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px;
-}
 .grid-postres{
     display: grid;
     grid-template-columns: repeat(2, auto);
+    gap: 10px;
         .tarjeta-postres{
-            @include bordes(1px solid $color-primario, 155px);
-            margin: 20px;
-            text-align: center;
-                h3{
-                    margin: 15px;
-                }
-                img{
-                    @include medidas(100%, 420px);
-                }
+            img{
+                @include medidas(100%, 420px);
+            }
         }
         .tarjeta-brownie{
             grid-column: 1 / span 2;
@@ -95,23 +79,11 @@
             margin: 0 auto;
         }
 }
-.linea-divisora{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px !important;
-}
 
     /* Cafeteria*/
 .cafeteria-img-principal{
     width: 100%;
     margin-bottom: 10px;
-}
-.tarjeta-cafeteria{
-    @include bordes(1px solid $color-primario, 15px);
-    margin: 10px;
-        h3{
-            margin: 10px;
-        }
 }
 
    /* Nosotros */
@@ -133,7 +105,6 @@
     @include box-model(20px, 20px);
     text-align: center;
         .caja{
-            @include bordes(1px solid $color-primario, 25px);
             @include box-model(20px, 20px);
         }
 }
@@ -156,11 +127,6 @@
 }
 
     /* Sabores */
-.sabores-titulo{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
-}
 .sabores-cajas{
     @include bordes(1px solid $color-primario, 20px);
     margin: 20px;
@@ -195,52 +161,33 @@
 }
 
     /* Postres */
-.postres-titulo{
-    text-align: center;
-    text-decoration: underline;
-    margin: 40px;
-}
 .grid-postres{
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
-    .tarjeta-postres{
-        @include bordes(1px solid $color-primario, 15px);
-        margin: 20px;
-        text-align: center;
-            h3{
-                margin: 15px;
-            }
-            img{
-                width: 100%;
-                height: 500px;
-            }
-    }
-    .tarjeta-brownie{
-        grid-column: 1 / span 2;
-        width: 50%;
-        margin: 0 auto;
-    }
-}
-.linea-divisora{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
+        .tarjeta-postres{
+            @include bordes(1px solid $color-primario, 15px);
+            margin: 20px;
+            text-align: center;
+                h3{
+                    margin: 15px;
+                }
+                img{
+                    width: 100%;
+                    height: 500px;
+                }
+        }
+        .tarjeta-brownie{
+            grid-column: 1 / span 2;
+            width: 50%;
+            margin: 0 auto;
+        }
 }
 
     /* Cafeteria */
 .cafeteria-img-principal{
     width: 100%;
     margin: 10px;
-}
-.tarjeta-cafeteria{
-    border: 1px solid $color-primario;
-    border-radius: 15px;
-    margin: 10px;
-        h3{
-            margin: 10px;
-        }
 }
 
     /* Nosotros */
@@ -262,7 +209,6 @@
     @include box-model(20px, 20px);
     text-align: center;
     .caja{
-        @include bordes(1px solid $color-primario, 25px);
         @include box-model(20px, 20px);
     }
 }
@@ -306,11 +252,6 @@
 }
 
     /* Sabores */
-.sabores-titulo{
-    margin-top: 30px;
-    text-decoration: underline;
-    text-align: center;
-}
 .sabores-cajas{
     @include bordes(1px solid $color-primario, 20px);
     margin: 20px;
@@ -352,11 +293,9 @@
             border-radius: 5px;
         }
         h1{
-            text-align: center;
-            text-decoration: underline;
             display: inline;
-            margin-left: 45%;
-            margin-top: 25%;
+            margin-left: 45% !important;
+            margin-top: 25% !important;
         }
 }
 .grid-postres{
@@ -380,10 +319,6 @@
         }
         .tarjeta-brownie{
             grid-column: 3;
-        }
-        .linea-divisora{
-            width: 90%;
-            margin: 0 auto;
         }
 }
 .grid-alm-bom{

@@ -1,3 +1,56 @@
-/* Contenido y estilos de main */
-/* Main de Index */
-@import "../components/accordion";
+/* Contenido y estilos generales de main */
+    /* Main de Index */
+    @import "../components/accordion";
+    .cajas{
+        hr{
+            width: 90%;
+            margin: 0 auto;
+            border: 1.5px solid;
+        }
+    }
+
+    /* Main de Sabores */
+    .sabores-titulo{
+        margin-top: 30px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    /* Main de Postres */
+    .postres-caja-principal{
+        img{
+            margin-top: 75px;
+        }
+        .postres-titulo{
+            @include box-model(unset, 20px);
+            text-align: center;
+            font-weight: 600;
+        }
+    }
+    .linea-divisora-postres{
+        color: $color-primario;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .tarjeta-postres{
+        @include bordes(1px solid $color-primario, 15px);
+        @include box-model(0, 20px);
+        text-align: center;
+            h3{
+                @include box-model(0, 15px)
+            }
+            img{
+                width: 100%;
+            }
+    }
+
+    /* Cafetería */
+    .tarjeta-cafeteria{
+        @include bordes(1px solid $color-primario, 15px);
+        @include box-model (0, 10px);
+            h3{
+                @include box-model (0, 10px);
+            }
+    }
