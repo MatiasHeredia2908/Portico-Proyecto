@@ -25,10 +25,24 @@
     display: block;
   }
   .formulario {
-    border: 1px solid #BF9E60;
-    border-radius: 20px;
-    padding: 30px 40px;
-    margin: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  .formulario input, .formulario textarea {
+    border: 1px #BF9E60 solid;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .formulario input::placeholder, .formulario textarea::placeholder {
+    color: #BF9E60;
+  }
+  .formulario .boton-enviar {
+    color: whitesmoke !important;
+    background-color: #BF9E60;
+    padding: 1.5px;
   }
   /* Sabores */
   .sabores-cajas {
@@ -96,11 +110,24 @@
     display: block;
   }
   .formulario {
-    border: 1px solid #BF9E60;
-    border-radius: 20px;
-    padding: 30px 40px;
-    margin: 20px;
-    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .formulario input, .formulario textarea {
+    border: 1px #BF9E60 solid;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .formulario input::placeholder, .formulario textarea::placeholder {
+    color: #BF9E60;
+  }
+  .formulario .boton-enviar {
+    color: whitesmoke !important;
+    background-color: #BF9E60;
+    padding: 1.5px;
   }
   /* Sabores */
   .sabores-cajas {
@@ -159,11 +186,25 @@
     display: block;
   }
   .contacto .consultas-formulario .formulario {
-    border: 1px solid #BF9E60;
-    border-radius: 20px;
-    padding: 30px 40px;
-    margin: 20px;
-    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .contacto .consultas-formulario .formulario input, .contacto .consultas-formulario .formulario textarea {
+    border: 1px #BF9E60 solid;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .contacto .consultas-formulario .formulario input::placeholder, .contacto .consultas-formulario .formulario textarea::placeholder {
+    color: #BF9E60;
+  }
+  .contacto .consultas-formulario .formulario .boton-enviar {
+    color: whitesmoke !important;
+    background-color: #BF9E60;
+    padding: 1.5px;
   }
   /* Sabores */
   .sabores-cajas {
@@ -259,11 +300,29 @@
     display: block;
   }
   .contacto .consultas-formulario .formulario {
-    border: 1px solid #BF9E60;
-    border-radius: 20px;
-    padding: 30px 40px;
-    margin: 20px;
-    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .contacto .consultas-formulario .formulario input, .contacto .consultas-formulario .formulario textarea {
+    border: 1px #BF9E60 solid;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  .contacto .consultas-formulario .formulario input::placeholder, .contacto .consultas-formulario .formulario textarea::placeholder {
+    color: #BF9E60;
+  }
+  .contacto .consultas-formulario .formulario .boton-enviar {
+    color: whitesmoke !important;
+    background-color: #BF9E60;
+    padding: 1.5px;
+  }
+  .contacto .consultas-formulario .formulario .boton-enviar:hover {
+    color: #BF9E60 !important;
+    background-color: whitesmoke;
   }
   /* Sabores */
   .sabores-cajas {
@@ -353,44 +412,42 @@
     margin: 20px;
   }
   .contacto {
-    border: 1px solid #BF9E60;
+    border: 2px solid #BF9E60;
     border-radius: 20px;
-    padding: 20px;
-    margin: 4rem 13rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contacto .info {
-    width: 50%;
+    padding: 40px;
+    margin: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
   }
   .contacto .info .telefono {
     display: block;
   }
-  .contacto .consultas-formulario {
-    border: 1px solid #BF9E60;
-    border-radius: 20px;
-    position: relative;
+  .contacto .consultas-formulario .formulario {
     width: 50%;
-    padding: 40px;
+    margin: 0 auto;
+    align-items: center;
   }
-  .contacto .consultas-formulario textarea {
-    padding: 10px;
-    border: 1px solid #BF9E60;
-    align-items: flex-end;
-  }
-  .contacto .consultas-formulario .consulta-envianos-consulta {
-    width: 50%;
-    display: flex;
-    position: absolute;
-  }
-  .contacto .consultas-formulario .consulta-envianos-consulta .formulario {
+  .contacto .consultas-formulario .formulario input, .contacto .consultas-formulario .formulario textarea {
+    border: 1px #BF9E60 solid;
+    border-radius: 5px;
+    font-style: italic;
+    margin: 5px;
     width: 100%;
-    display: inline-flex;
+    text-align: center;
   }
-  .contacto .consultas-formulario .consulta-envianos-consulta .formulario input {
-    justify-self: center;
+  .contacto .consultas-formulario .formulario input::placeholder, .contacto .consultas-formulario .formulario textarea::placeholder {
+    color: #BF9E60;
+  }
+  .contacto .consultas-formulario .formulario .boton-enviar {
+    color: whitesmoke !important;
+    background-color: #BF9E60;
+    padding: 1.5px;
+  }
+  .contacto .consultas-formulario .formulario .boton-enviar:hover {
+    color: #BF9E60 !important;
+    background-color: whitesmoke;
   }
   /* Sabores */
   .sabores-cajas {
@@ -578,6 +635,18 @@
   border: 1.5px solid;
 }
 
+.section-precios {
+  display: flex;
+  width: 90% !important;
+  height: 90% !important;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.section-precios img {
+  border-radius: 25px;
+}
+
 /* Main de Sabores */
 .sabores-titulo {
   margin-top: 30px;
@@ -633,9 +702,27 @@
 
 /* Pie de Pagina */
 footer {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  margin-top: 40px;
+}
+footer .card {
+  color: #e4e4e4 !important;
+}
+footer .card .card-footer {
+  background-color: rgba(200, 167, 111, 0.8431372549);
+}
+footer .card .card-body {
+  background-color: rgba(200, 167, 111, 0.8431372549);
+}
+footer .card .card-body h5 {
+  margin: 10px;
+  font-size: 30px !important;
+}
+footer .card .card-body p {
+  color: #e4e4e4 !important;
+}
+
+path {
+  color: #e4e4e4 !important;
 }
 
 .iconos {
@@ -715,6 +802,11 @@ iframe {
 
 .contacto .info a {
   color: #BF9E60;
+}
+
+/* Nosotros */
+.icono-nosotros {
+  color: #BF9E60 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

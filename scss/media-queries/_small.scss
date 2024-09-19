@@ -16,10 +16,26 @@
 .telefono{
     display: block;
 }
-.formulario{
-    @include bordes(1px solid $color-primario, 20px);
-    @include box-model(30px 40px, 20px);
-}
+    .formulario{
+        width: 100%;
+        align-items: center;
+            input, textarea{
+                border: 1px $color-primario solid;
+                border-radius: 5px;
+                font-style: italic;
+                margin: 5px;
+                width: 100%;
+                text-align: center;
+                    &::placeholder{
+                        color: $color-primario
+                    }
+            }
+            .boton-enviar{
+                color: whitesmoke !important;
+                background-color: $color-primario;
+                padding: 1.5px;
+            }
+    }
 
     /* Sabores */
 .sabores-cajas{

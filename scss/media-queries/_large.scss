@@ -17,9 +17,25 @@
         }
         .consultas-formulario{
             .formulario{
-                @include bordes(1px solid $color-primario, 20px);
-                @include box-model(30px 40px, 20px);
-                display: flex;  
+                width: 50%;
+                margin: 0 auto;
+                align-items: center;
+                    input, textarea{
+                        border: 1px $color-primario solid;
+                        border-radius: 5px;
+                        font-style: italic;
+                        margin: 5px;
+                        width: 100%;
+                        text-align: center;
+                            &::placeholder{
+                                color: $color-primario
+                            }
+                    }
+                    .boton-enviar{
+                        color: whitesmoke !important;
+                        background-color: $color-primario;
+                        padding: 1.5px;
+                    }
             }
         }
     }
@@ -119,9 +135,29 @@
         }
         .consultas-formulario{
             .formulario{
-                @include bordes(1px solid $color-primario, 20px);
-                @include box-model(30px 40px, 20px);
-                display: flex;
+                width: 50%;
+                margin: 0 auto;
+                align-items: center;
+                    input, textarea{
+                        border: 1px $color-primario solid;
+                        border-radius: 5px;
+                        font-style: italic;
+                        margin: 5px;
+                        width: 100%;
+                        text-align: center;
+                            &::placeholder{
+                                color: $color-primario
+                            }
+                    }
+                    .boton-enviar{
+                        color: whitesmoke !important;
+                        background-color: $color-primario;
+                        padding: 1.5px;
+                            &:hover{
+                                color: $color-primario !important;
+                                background-color: whitesmoke;
+                            }
+                    }
             }
         }
 }
@@ -213,41 +249,43 @@
     }
 }
 .contacto{
-    @include bordes(1px solid $color-primario, 20px);
-    @include box-model(20px, 4rem 13rem);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include bordes(2px solid $color-primario, 20px);
+    @include box-model(40px, 10px);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
         .info{
-            width: 50%;
-            text-align: center;
-                .telefono{
-                    display: block;
-                }
+            .telefono{
+                display: block;
+            }
         }
         .consultas-formulario{
-            border: 1px solid $color-primario;
-            border-radius: 20px;
-            position: relative;
-            width: 50%;
-            padding: 40px;
-                textarea{
-                    padding: 10px;
-                    border: 1px solid $color-primario;
-                    align-items: flex-end;
-                }
-                .consulta-envianos-consulta{
-                    width: 50%;
-                    display: flex;
-                    position: absolute;
-                        .formulario{
-                            width: 100%;
-                            display: inline-flex;
-                                input{
-                                    justify-self: center
-                                }
-                        }
-                }
+            .formulario{
+                width: 50%;
+                margin: 0 auto;
+                align-items: center;
+                    input, textarea{
+                        border: 1px $color-primario solid;
+                        border-radius: 5px;
+                        font-style: italic;
+                        margin: 5px;
+                        width: 100%;
+                        text-align: center;
+                            &::placeholder{
+                                color: $color-primario
+                            }
+                    }
+                    .boton-enviar{
+                        color: whitesmoke !important;
+                        background-color: $color-primario;
+                        padding: 1.5px;
+                            &:hover{
+                                color: $color-primario !important;
+                                background-color: whitesmoke;
+                            }
+                    }
+            }
         }
 }
 

@@ -1,8 +1,25 @@
 /* Pie de Pagina */
 footer{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    margin-top: 40px;
+    .card{
+        color: #e4e4e4 !important;
+        .card-footer{
+            background-color: #c8a76fd7;
+        }
+        .card-body{
+            background-color: #c8a76fd7;
+            h5{
+                margin: 10px;
+                font-size: 30px !important;
+            }
+            p{
+                color: #e4e4e4 !important;
+            }
+        }
+    }
+}
+path{
+    color: #e4e4e4 !important;
 }
 .iconos{
     justify-content: center;

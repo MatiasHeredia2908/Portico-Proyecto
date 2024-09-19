@@ -8,6 +8,18 @@
             border: 1.5px solid;
         }
     }
+    
+    .section-precios{
+        display: flex;
+        width: 90% !important;
+        height: 90% !important;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+            img{
+                border-radius: 25px;
+            }
+    }
 
     /* Main de Sabores */
     .sabores-titulo{
