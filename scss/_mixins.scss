@@ -1,11 +1,11 @@
 /* Mixins */
-@mixin medidas ($width, $height){
+@mixin medidas($width, $height){
     width: $width;
     height: $height;
 }
-@mixin bordes ($border, $border-radious){
-    border: $border;
-    border-radius: $border-radious;
+@mixin bordes($borde, $radio){
+    border: $borde;
+    border-radius: $radio;
 }
 @mixin box-model($padding, $margin){
     padding: $padding;

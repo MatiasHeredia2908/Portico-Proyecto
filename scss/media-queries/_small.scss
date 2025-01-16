@@ -1,7 +1,10 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
 @media (min-width:320px) and (max-width:768px){
     /* Inicio */
 .cajas{
-    @include bordes(1px solid solid $color-primario, 25px);
+    @include bordes(1px solid $color-primario, 25px);
     @include box-model(20px, 20px);
     text-align: center;
         .caja{

@@ -1,5 +1,8 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+@use '../variables';
+
 /* Tipografía, propiedades y estilos */
-@import "../variables";
 *{
     margin: 0;
     padding: 0;

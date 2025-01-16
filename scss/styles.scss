@@ -1,9 +1,9 @@
-@import "variables";
-@import "_mixins";
-@import "media-queries/small";
-@import "media-queries/medium";
-@import "media-queries/large";
-@import "layout/header.scss";
-@import "./layout/main";
-@import "layout/footer";
-@import "base/typography";
+@use '_variables.scss';
+@use './mixins' as *;
+@use './media-queries/small';
+@use 'media-queries/medium';
+@use 'media-queries/large';
+@use 'layout/header.scss';
+@use './layout/main';
+@use 'layout/footer';
+@use 'base/typography';

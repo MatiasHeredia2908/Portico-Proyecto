@@ -1,6 +1,9 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+@use "../components/accordion";
+
 /* Contenido y estilos generales de main */
     /* Main de Index */
-    @import "../components/accordion";
     .cajas{
         hr{
             width: 90%;
