@@ -7,3 +7,25 @@
 @use './layout/main';
 @use 'layout/footer';
 @use 'base/typography';
+
+.carrousel{
+    width: 100%;
+    height: 100vh;
+}
+.seccion-sabores{
+    width: 70%;
+    h3{
+        all: unset;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .tarjeta-sabores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
