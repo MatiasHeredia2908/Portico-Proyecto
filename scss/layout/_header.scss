@@ -8,8 +8,7 @@
 }
 .logo{
     @include medidas(50px, 50px)
-}
-.foto-principal{
+}.foto-principal{
     @include medidas(100%, 100vh);
     margin-bottom: 20px;
 }

@@ -59,6 +59,35 @@
     @include box-model(unset, 10px);
     text-align: center;
 }
+.seccion-sabores-titulo{
+    text-align: center;
+    margin: 20px;
+}
+.seccion-sabores{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 30px;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .tarjeta-sabores{
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            height: 100%;
+            h4{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+}
     /* Postres */
 
     /* Cafeteria */

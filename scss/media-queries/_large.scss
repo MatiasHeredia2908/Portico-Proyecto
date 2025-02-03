@@ -81,6 +81,35 @@
             margin: 20px;
         }
     }
+    .seccion-sabores-titulo{
+        text-align: center;
+        margin: 20px;
+    }
+    .seccion-sabores{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        gap: 40px;
+            img{
+                width: 160px;
+                height: 160px;
+            }
+            .tarjeta-sabores{
+                flex-direction: column;
+                text-align: center;
+                margin: 0 auto;
+                width: 50%;
+                height: 100%;
+                h4{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                p{
+                    margin: 0;
+                }
+            }
+    }
     
     /* Postres */
 .grid-postres{
@@ -198,6 +227,35 @@
             width: 100%;
         }
 }
+.seccion-sabores-titulo{
+    text-align: center;
+    margin: 20px;
+}
+.seccion-sabores{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 50px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .tarjeta-sabores{
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            height: 100%;
+            h4{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+}
 
     /* Postres */
 .grid-postres{
@@ -290,6 +348,7 @@
                     }
             }
         }
+
 }
 
     /* Sabores */
@@ -325,6 +384,38 @@
             margin: 20px;
         }
 }
+.seccion-sabores-titulo{
+    text-align: center;
+    margin: 0 auto;
+    margin: 20px;
+}
+.seccion-sabores{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    row-gap: 70px;
+    margin-bottom: 50px;
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .tarjeta-sabores{
+            flex-direction: column;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            height: 100%;
+            h4{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin: 0;
+            }
+        }
+}
+
 
     /* Postres */
 .postres-caja-principal{

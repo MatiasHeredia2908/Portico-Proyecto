@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* Colores */
 /* Mixins */
+/* Grid de Postres */
+.grid-tortas {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   /* Inicio */
   .cajas {
@@ -64,6 +71,29 @@
     padding: 0;
     margin: 10px;
     text-align: center;
+  }
+  .seccion-sabores-titulo {
+    text-align: center;
+    margin: 20px;
+  }
+  .seccion-sabores {
+    width: 50vh;
+    margin: 0 auto;
+    display: grid;
+  }
+  .seccion-sabores img {
+    width: 100px;
+    height: 100px;
+  }
+  .seccion-sabores .tarjeta-sabores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 25px;
+  }
+  .seccion-sabores .tarjeta-sabores h4 {
+    width: 100%;
   }
   /* Postres */
   /* Cafeteria */
@@ -149,6 +179,35 @@
     padding: unset;
     margin: 10px;
     text-align: center;
+  }
+  .seccion-sabores-titulo {
+    text-align: center;
+    margin: 20px;
+  }
+  .seccion-sabores {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 30px;
+  }
+  .seccion-sabores img {
+    width: 100px;
+    height: 100px;
+  }
+  .seccion-sabores .tarjeta-sabores {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .seccion-sabores .tarjeta-sabores h4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seccion-sabores .tarjeta-sabores p {
+    margin: 0;
   }
   /* Postres */
   /* Cafeteria */
@@ -245,6 +304,35 @@
   }
   .caja-scalo p {
     margin: 20px;
+  }
+  .seccion-sabores-titulo {
+    text-align: center;
+    margin: 20px;
+  }
+  .seccion-sabores {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 40px;
+  }
+  .seccion-sabores img {
+    width: 160px;
+    height: 160px;
+  }
+  .seccion-sabores .tarjeta-sabores {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .seccion-sabores .tarjeta-sabores h4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seccion-sabores .tarjeta-sabores p {
+    margin: 0;
   }
   /* Postres */
   .grid-postres {
@@ -358,6 +446,35 @@
   }
   .caja-scalo img {
     width: 100%;
+  }
+  .seccion-sabores-titulo {
+    text-align: center;
+    margin: 20px;
+  }
+  .seccion-sabores {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 50px;
+  }
+  .seccion-sabores img {
+    width: 200px;
+    height: 200px;
+  }
+  .seccion-sabores .tarjeta-sabores {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .seccion-sabores .tarjeta-sabores h4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seccion-sabores .tarjeta-sabores p {
+    margin: 0;
   }
   /* Postres */
   .grid-postres {
@@ -483,6 +600,37 @@
   }
   .caja-scalo h2, .caja-scalo p {
     margin: 20px;
+  }
+  .seccion-sabores-titulo {
+    text-align: center;
+    margin: 0 auto;
+    margin: 20px;
+  }
+  .seccion-sabores {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    row-gap: 70px;
+    margin-bottom: 50px;
+  }
+  .seccion-sabores img {
+    width: 200px;
+    height: 200px;
+  }
+  .seccion-sabores .tarjeta-sabores {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+  }
+  .seccion-sabores .tarjeta-sabores h4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seccion-sabores .tarjeta-sabores p {
+    margin: 0;
   }
   /* Postres */
   .postres-caja-principal {
@@ -806,29 +954,6 @@ iframe {
 /* Nosotros */
 .icono-nosotros {
   color: #BF9E60 !important;
-}
-
-.carrousel {
-  width: 100%;
-  height: 100vh;
-}
-
-.seccion-sabores {
-  width: 70%;
-}
-.seccion-sabores h3 {
-  all: unset;
-}
-.seccion-sabores img {
-  width: 150px;
-  height: 150px;
-}
-.seccion-sabores .tarjeta-sabores {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

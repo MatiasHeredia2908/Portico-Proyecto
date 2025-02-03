@@ -1,5 +1,6 @@
 @use '../variables' as *;
 @use '../mixins' as *;
+@use '../components/grids' as *;
 
 @media (min-width:320px) and (max-width:768px){
     /* Inicio */
@@ -56,6 +57,29 @@
     @include bordes(3px solid $color-primario, 20px);
     @include box-model(0, 10px);
     text-align: center;
+}
+.seccion-sabores-titulo{
+    text-align: center;
+    margin: 20px;
+}
+.seccion-sabores{
+    width: 50vh;
+    margin: 0 auto;
+    display: grid;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .tarjeta-sabores{
+            h4{
+                width: 100%;
+            }
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            margin: 25px;
+        }
 }
     /* Postres */
 
