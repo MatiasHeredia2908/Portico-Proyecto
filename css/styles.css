@@ -885,6 +885,11 @@ path {
   text-align: center !important;
 }
 
+.link-redes {
+  all: unset;
+  cursor: pointer;
+}
+
 /* Tipografía, propiedades y estilos */
 * {
   margin: 0;
